@@ -1,0 +1,10 @@
+[package]
+name = "irc-poker-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+irc = "0.14"
+tokio = { version = "1", features = ["full"]  }
+rand = "0.8"
+futures = "0.3"
